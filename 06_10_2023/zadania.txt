@@ -1,0 +1,10 @@
+Zadania:
+Zad.1 Napisać skrypt sprawdzający czy podana liczba przez użytkownika jest parzysta czy nieparzysta. Wyświetl odpowiednią informację.
+Zad.2 Napisać skrypt sprawdzający czy liczba pierwsza jest podzielna bez reszty przez liczbę drugą. Liczby podaje użytkownik. Wyświetl odpowiednią informację.
+Zad.3 Napisać skrypt sprawdzający czy podana liczba przez użytkownika mieści się w przedziale <100,150). Wyświetl odpowiedni komunikat.
+Zad.4 Napisz skrypt sprawdzający czy podana liczba przez użytkownika jest mniejsza, większa lub równa zero. Wyświetl odpowiedni komunikat.
+Zad.5 Napisz skrypt, w którym użytkownik podaje wiek i otrzymuje odpowiednią informację: mniej niż 11 lat to dziecko, między 11 i 17 to nastolatek, 18 i więcej to dorosły.
+Zad.6 Napisz skrypt, który pobierze od użytkownika rok i wyświetli ilość dni w miesiącu luty. Lata przestępne liczymy od momentu reformy kalendarza w roku 1582. Rokiem przestępnym jest ten, który jest podzielny przez 4. Wyjątek stanowią lata podzielne przez 100 z wyjątkiem podzielnych przez 400, np.: rok 1900 nie był przestępny, ale 1600 lub 2000 już tak.
+Zad.7 Napisz skrypt wyznaczający najmniejszą z trzech liczb podanych przez użytkownika. Wyświetl odpowiedni komunikat.
+Zad.8 Napisz skrypt, który sprawdzi czy w podanych przez użytkownika trzech liczbach, przynajmniej dwie są takie same.
+Każde zadanie wykonać za pomocą wszystkich instrukcji warunkowych.
