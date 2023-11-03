@@ -1,0 +1,13 @@
+Zadanie 1: Zdefiniuj zmienną, a następnie przypisz jej wartość. Użyj instrukcji warunkowej if, aby sprawdzić, czy liczba jest dodatnia, ujemna lub równa zero. wyświetl odpowiednie komunikaty.
+
+Zadanie 2: Zdefiniuj zmienną i przypisz jej wartość. Następnie użyj instrukcji warunkowej if, która sprawdzi czy liczba jest parzysta lub nieparzysta. Wyświetl odpowiedni komunikat.
+
+Zadanie 3: Zdefiniuj zmienną i przypisz jej wartość (jedną) z, np. kategorii: elektronika, odzież, pieczywo, itd. Wykorzystaj instrukcję switch, która na podstawie kategorii produktu obliczy cenę z uwzględnieniem różnych stawek podatkowych. Stawki należy sobie samemu wymyśleć, jak również ceny za jeden produkt z danej kategorii. Wyświetl odpowiednie komunikaty.
+
+Zadanie 4: Zdefiniuj zmienną do której przypiszesz rok. Następnie wykorzystaj instrukcję if, za pomocą której sprawdzisz, czy podany rok jest przestępny oraz do którego stulecia należy.
+
+Zadanie 5: Zdefiniuj zmienną i przypisz jej wartość procentową, np. 50. Napisz instrukcję warunkową if, która przeliczy ocenę na podstawie wyniku procentowego.
+
+Zadanie 6: Zdefiniuj zmienne, które będą reprezentować długości boków trójkąta. Napisz instrukcję warunkową if, która określi, czy trójkąt jest prostokątny, równoramienny lub równoboczny. Wyświetl odpowiednie komunikaty.
+
+Pamiętaj o zasadach clean code i zabezpiecz odpowiednio skrypty przed niepożądanymi danymi.
