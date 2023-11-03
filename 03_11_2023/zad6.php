@@ -23,8 +23,6 @@ function jaki_trojkat($a, $b, $c)
         return 'inny';
 }
 
-function sprawdz_prostokatny($a, $b, $c) {}
-
 if (is_numeric($bok_a) && is_numeric($bok_b) && is_numeric($bok_c)) {
     if ($bok_a <= 0 || $bok_b <= 0 || $bok_c <= 0)
         exit ('Żaden bok nie może być równy lub mniejszy 0');
