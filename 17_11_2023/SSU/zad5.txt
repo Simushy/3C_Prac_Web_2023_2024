@@ -1,0 +1,3 @@
+instrukcja switch jest bardziej czytelna i latwiej jest wprowadzac zmiany i dopisywać nowe warunki przy nowych opcjach w menu,
+niektóre kompilatory i optymalizatory mogą przetworzyć instrukcję switch lepiej niz instrukcje if, else if, else 
+co przy wielu instrukcjach przeklada się na lepszą wydajność
