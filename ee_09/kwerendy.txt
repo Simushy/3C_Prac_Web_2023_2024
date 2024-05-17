@@ -1,0 +1,4 @@
+1.SELECT haslo FROM uzytkownicy where `uzytkownicy`.`login` LIKE 'Justyna';
+2.SELECT COUNT(id) FROM dane;
+3.SELECT `dane`.`rok_urodz`, `dane`.`przyjaciol`, `dane`.`hobby`, `dane`.`zdjecie` from dane, uzytkownicy where `dane`.`id` = `uzytkownicy`.`id` and `uzytkownicy`.`login` like "Justyna";
+4.ALTER TABLE `dane` ADD Stanowisko VARCHAR(255);

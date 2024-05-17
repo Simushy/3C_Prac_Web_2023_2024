@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styl10.css" />
+    <title>Fabryka cukierków</title>
+    <script>
+      function zamowienie() {
+        var cukierek = document.getElementById("id_cukierka").value;
+        switch (cukierek) {
+          case "1":
+            document.getElementById("zamowienie").innerText =
+              "Twoje zamówienie to cukierek: cytryna";
+            break;
+          case "2":
+            document.getElementById("zamowienie").innerText =
+              "Twoje zamówienie to cukierek: liść";
+            break;
+          case "3":
+            document.getElementById("zamowienie").innerText =
+              "Twoje zamówienie to cukierek: banan";
+            break;
+          default:
+            document.getElementById("zamowienie").innerText =
+              "Twoje zamówienie to cukierek: inny";
+            break;
+        }
+      }
+      function ustawkolor() {
+        var R = document.getElementById("RGB_R").value;
+        var G = document.getElementById("RGB_G").value;
+        var B = document.getElementById("RGB_B").value;
+        document.getElementById("kolor").style =
+          "background: rgb(" + R + ", " + G + ", " + B + ");";
+      }
+    </script>
+  </head>
+  <body>
+    <div id="top">
+      <div id="top_left"><a href="zamowienie.html">Zamów cukierki</a></div>
+      <div id="top_right">
+        <a href="index.html"><img src="logotyp.png" alt="Nasze logo" /></a>
+      </div>
+    </div>
+    <div id="banner"><h1>Strefa zamówień</h1></div>
+    <div id="main">
+      <div id="main_left">
+        <a>Numer kształtu:</a><br />
+        <input type="number" id="id_cukierka" /><br />
+        <a>Skomponuj swój kolor, podaj RGB: </a><br />
+        <a>R</a><input type="number" id="RGB_R" min="0" max="255" /> <a>G</a
+        ><input type="number" id="RGB_G" min="0" max="255" /> <a>B</a
+        ><input type="number" id="RGB_B" min="0" max="255" /><br />
+        <button onclick="zamowienie()">Zamowienie</button>
+        <p id="zamowienie">Twoje zamówienie</p>
+        <button id="kolor" onclick="ustawkolor()">Kolor</button>
+      </div>
+      <div id="main_right">
+        <h2>Nasza oferta</h2>
+        <table>
+          <tr>
+            <td>Kształty</td>
+            <td rowspan="2">Możesz zamówić<br />dowolny kolor cukierka</td>
+          </tr>
+          <tr>
+            <td>
+              <ol>
+                <li>cytryna</li>
+                <li>liść</li>
+                <li>banan</li>
+              </ol>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="footer">Autor strony: Aleksander Biś 3C</div>
+  </body>
+</html>

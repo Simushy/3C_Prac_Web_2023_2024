@@ -1,0 +1,55 @@
+* {
+  font-family: Tahoma;
+}
+.banner_wrapper {
+  display: flex;
+  flex-direction: reverse;
+}
+.banner {
+  background-color: #003d33;
+  color: white;
+  text-align: center;
+  height: 50px;
+}
+#banner_lewy {
+  width: 70%;
+}
+#banner_prawy {
+  width: 30%;
+}
+.main_wrapper {
+  display: flex;
+  flex-direction: reverse;
+}
+#main_lewy {
+  background-color: #26a69a;
+  height: 550px;
+  width: 30%;
+}
+#main_prawy {
+  background-color: #26a69a;
+  height: 550px;
+  width: 70%;
+}
+#stopka {
+  background-color: #003d33;
+  color: white;
+}
+#wizytowka {
+  width: 400px;
+  margin: 30px;
+  text-align: center;
+  border: 1px solid #003d33;
+}
+#wiecej {
+  text-decoration: none;
+
+  color: white;
+}
+#wiecejdiv:hover {
+  background-color: #004c40;
+}
+#wiecejdiv {
+  background-color: #003d33;
+  padding: 10px;
+}
