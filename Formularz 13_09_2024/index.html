@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Formularze</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styl.css" />
+  </head>
+  <body>
+    <a>Podaj swoje imie</a>
+    <input type="text" id="imie" /><br /><br />
+    <a>Podaj swoje nazwisko</a>
+    <input type="text" id="nazwisko" /><br /><br />
+    <a>Ile masz lat?</a>
+    <input type="number" id="wiek" min="0" max="120" /><br /><br />
+    <button onclick="przeslij()">Przeslij</button>
+    <div id="witaj"></div>
+    <br /><br />
+    <button onclick="flashbang()">FLASHBANG</button>
+  </body>
+  <script>
+    function przeslij() {
+      var imie = document.getElementById("imie").value;
+      var nazwisko = document.getElementById("nazwisko").value;
+      var wiek = document.getElementById("wiek").value;
+      var witaj = document.getElementById("witaj");
+
+      if (imie != "" && nazwisko != "" && wiek != "") {
+        if (wiek >= 0 && wiek <= 120) {
+          witaj.innerText = `Witaj ${imie} ${nazwisko}. Masz ${wiek} lat`;
+        } else {
+          witaj.innerText = "Zły wiek";
+        }
+      } else {
+        witaj.innerText = "Brakuje danych";
+      }
+    }
+    function flashbang() {
+      document.body.style = "background-color:white;";
+      setTimeout(() => {
+        document.body.style = "background-color:black;";
+      }, 5000);
+    }
+  </script>
+</html>

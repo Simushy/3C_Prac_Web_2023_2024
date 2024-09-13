@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  color: #ccc;
+  text-shadow: 1px 1px blue;
+  transition: background-color 0.5s ease-in;
+}
+input {
+  background-color: #999;
+}
+#wiek {
+  width: 50px;
+  text-align: right;
+}
+#przeslij {
+  background-color: #999;
+}
